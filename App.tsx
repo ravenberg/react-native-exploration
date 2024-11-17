@@ -1,20 +1,31 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from 'react';
+import {NavigationContainer} from '@react-navigation/native';
+import {Home} from './screens/home';
+import {Categories} from "./screens/categories";
+import {Settings} from "./screens/settings";
+import {createDrawerNavigator} from "@react-navigation/drawer";
+import {useDrawerNavigationOptions} from "./hooks/useDrawerNavigationOptions";
 
-export default function App() {
+import 'react-native-gesture-handler';
+import './global.css';
+import {SafeAreaProvider} from "react-native-safe-area-context";
+
+const Drawer = createDrawerNavigator()
+
+function App() {
+  const screenOptions = useDrawerNavigationOptions()
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaProvider>
+      <NavigationContainer>
+        <Drawer.Navigator initialRouteName="Home" screenOptions={{...screenOptions}}>
+          <Drawer.Screen name="Home" component={Home}/>
+          <Drawer.Screen name="Categories" component={Categories}/>
+          <Drawer.Screen name="Settings" component={Settings}/>
+        </Drawer.Navigator>
+      </NavigationContainer>
+    </SafeAreaProvider>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;

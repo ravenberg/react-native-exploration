@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25ba0e51-c9f9-492a-aa04-8bdcf1183f94" name="Changes" comment="" />
+    <list default="true" id="25ba0e51-c9f9-492a-aa04-8bdcf1183f94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/DebtRecords.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NoDebtRecords.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ThemedText.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ThemedView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/svg/HandGrip..tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useDrawerNavigationOptions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metro.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/categories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/settings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -24,35 +47,40 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2ofMQEZlIq6AjHZqbEiIJeYQAL4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.laravel-idea.search-composer-json": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ravenberg/Code/expense-tracker/app/(drawer)",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/ravenberg/Code/expense-tracker/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.laravel-idea.search-composer-json&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ravenberg/Code/expense-tracker/assets/illustrations&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/ravenberg/Code/expense-tracker/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/illustrations" />
+      <recent name="$PROJECT_DIR$/screens" />
       <recent name="$PROJECT_DIR$/app/(drawer)" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/util" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/app/(drawer)" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
@@ -74,10 +102,28 @@
       <option name="presentableId" value="Default" />
       <updated>1731256160119</updated>
       <workItem from="1731256161274" duration="1599000" />
+      <workItem from="1731257826389" duration="21303000" />
+      <workItem from="1731355279369" duration="4962000" />
+      <workItem from="1731425618622" duration="858000" />
+      <workItem from="1731489182945" duration="10000" />
+      <workItem from="1731617054978" duration="6609000" />
+      <workItem from="1731768884233" duration="13090000" />
+      <workItem from="1731835796962" duration="2034000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/screens/home.tsx</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
