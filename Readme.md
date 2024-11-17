@@ -1,7 +1,7 @@
 # React Native exploration
 In this project im exploring what its like building a native app for iOS and Android with React Native.
 
-## Using
+## Usage
 After pull
 ```ts
 npm install

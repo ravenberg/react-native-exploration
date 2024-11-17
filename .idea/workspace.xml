@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25ba0e51-c9f9-492a-aa04-8bdcf1183f94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/DebtRecords.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/NoDebtRecords.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ThemedText.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ThemedView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/svg/HandGrip..tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useDrawerNavigationOptions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metro.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/categories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/settings.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="25ba0e51-c9f9-492a-aa04-8bdcf1183f94" name="Changes" comment="Share project on github">
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ravenberg"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ravenberg/react-native-exploration.git",
+    "accountId": "cbd7c04a-2a83-48d1-a449-df98b64f7510"
+  }
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -108,12 +100,25 @@
       <workItem from="1731489182945" duration="10000" />
       <workItem from="1731617054978" duration="6609000" />
       <workItem from="1731768884233" duration="13090000" />
-      <workItem from="1731835796962" duration="2034000" />
+      <workItem from="1731835796962" duration="2232000" />
     </task>
+    <task id="LOCAL-00001" summary="Share project on github">
+      <option name="closed" value="true" />
+      <created>1731840792895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731840792895</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Share project on github" />
+    <option name="LAST_COMMIT_MESSAGE" value="Share project on github" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
